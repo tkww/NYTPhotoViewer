@@ -37,7 +37,7 @@ extern NSString * const NYTPhotosViewControllerWillDismissNotification;
  */
 extern NSString * const NYTPhotosViewControllerDidDismissNotification;
 
-@interface NYTPhotosViewController : UIViewController
+@interface NYTPhotosViewController : UIViewController <UIPageViewControllerDelegate>
 
 /**
  *  The pan gesture recognizer used for panning to dismiss the photo. Disable to stop the pan-to-dismiss behavior.
